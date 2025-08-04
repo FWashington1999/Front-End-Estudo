@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1>Mais sobre tabelas</h1>
+
+    <!--
+    caption -> Legenda / titulo da tabela
+    thead -> Table header (cabeçlho da tabela)
+    tbody -> Table body (corpo da tabela)
+    tfoot -> Table foot (rodapé da tabela)
+    -->
+
+    <table border="1">
+        <caption>Listagem de produtos</caption>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td>1</td>
+                <td>R$ 3500</td>
+            </tr>
+            <tr>
+                <td>Tablet</td>
+                <td>2</td>
+                <td>R$ 1500</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td colspan="2">R$ 5000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
